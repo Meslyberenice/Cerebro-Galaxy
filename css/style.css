@@ -67,11 +67,39 @@ header .btn{
 	color: #D8C6C6;
 	
 }
-
 #Info{
 	
+	margin: 30px 0;
+	
+	
+}
+#Info .AboutUs-Info{
+	background-color: rgba(83,83,82,0.88);
+	width: 300px;
+	height: 370px;
+
 }
 
+.AboutUs-Info H3{ 
+	text-align: center;
+	text-align: center;
+	color: #D8C6C6;
+	font-weight: 800;
+
+}
+
+
+.AboutUs-Info p,ul{
+	
+	text-align: justify;
+	color: #D8C6C6;
+	font-size: 20px;
+}
+.AUICONO {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
 
 
 
