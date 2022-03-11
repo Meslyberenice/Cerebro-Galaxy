@@ -1,14 +1,19 @@
-
+/*esto*/
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Raleway:wght@100;300;400&family=Smooch+Sans&display=swap%27');
 body {
-     font-family: Segoe UI;
+    font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	color: #000;
 	background-image: url("../img/cerebro.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 100%;
-}
 
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'League Gothic', sans-serif;
+}
+/*fin*/
 .navbar-costume{
 	
 	background-color: #30363d;
@@ -123,22 +128,94 @@ footer{
 	padding: 0;
 }
 
+#Info .titulo h1{
+	font-size: 60px; 
+	text-align: center;
+	color: white;
+	padding-bottom: 30px;
+	font-weight: 800;
+	
+}
 
+td{
+	padding-bottom: 60px;
+}
+#Info .AboutUs-Info h2{
+	color: white;
+	
+}
+/*styles sign-up */
 
+.input-box {
+    width: 100%;
+    margin: 0 0 13px;
+    border: none;
+    border-radius: 13px;
+    padding: 11px;
+}
 
+.sign-up {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 463px;
+    background-color: #fff0f0;
+    padding: 22px;
+    border-radius: 13px;
+}
 
+#sign-up {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
 
+.sign-up h2{
+    font-size: 19px;
+    color: #2c2c2cdd;
+    font-weight: 600;
+}
 
+.sign-buttons {
+    display: flex;
+    margin: 27px 0;
+    justify-content: center;
+}
 
+.sign-buttons a{
+    color: #400606;
+    text-decoration: none;
+}
 
+.btnsign-up {
+    margin: 0 18px;
+    width: 220px;
+    border: none;
+    background-color: #e39292;
+    color: #400606;
+    border-radius: 13px;
+    font-size: 17px;
+    font-weight: 700;
+}
 
+.btnsign-up:hover {
+    color: #ffffff;
+    background-color: #702d2d;
+}
 
+.sign-social{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 10px 0;
+}
 
-
-
-
-
-
-
-
-
+.sign-social a {
+    color: #a77171;
+    font-size: 35px;
+    margin: 0 56px;
+}
+.sign-social a:hover {
+    color: #5e3333;
+    cursor: pointer;
+}
