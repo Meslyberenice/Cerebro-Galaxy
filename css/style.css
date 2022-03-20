@@ -53,7 +53,7 @@ header .btn{
 	margin: 0 20px;
 }
 
-.badbunny{
+.destacados{
 	
 	padding: 0;
 	margin-right:0;
@@ -87,7 +87,6 @@ header .btn{
 
 .AboutUs-Info H3{ 
 	text-align: center;
-	text-align: center;
 	color: #D8C6C6;
 	font-weight: 800;
 
@@ -105,8 +104,14 @@ header .btn{
     align-content: center;
     justify-content: center;
 }
-
-
+.unicos{
+	color: white;
+	text-align: center;
+}
+.novedades{
+	color: white;
+	text-align: center;
+}
 
 
 footer{
@@ -144,8 +149,22 @@ td{
 	color: white;
 	
 }
+#carrusel .slick-buttons .btn-primary{
+	background-color: transparent;
+	
+}
+#carrusel .slick-buttons {
+	padding-top: 20px;
+	padding-bottom: 60px;
+	
+}
+#carruselofertas .slick-buttons .btn-primary{
+	background-color: transparent;
+}
+#carruselofertas .slick-buttons{
+	padding-top: 20px;
+}
 /*styles sign-up */
-
 .input-box {
     width: 100%;
     margin: 0 0 13px;
@@ -219,3 +238,4 @@ td{
     color: #5e3333;
     cursor: pointer;
 }
+
