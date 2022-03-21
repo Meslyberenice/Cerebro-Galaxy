@@ -239,3 +239,83 @@ td{
     cursor: pointer;
 }
 
+/*Tienda*/
+.inventario {
+	padding: 10px 5px 20px;
+
+}
+.detalles{
+	background-color: #d3d3d3;
+	padding: 15px 0;
+	border-radius: 5px;
+
+}
+.inventario p{
+	width: 90%;
+    margin: auto;
+}
+.inventario h3{
+	margin: 10px
+}
+.categorias{
+	display: flex;
+	flex-direction: column;
+	background-color: #ffff;
+	height: auto;
+}
+
+.categorias a{
+	color: #000;
+	text-decoration: none;
+}
+.categorias a:hover{
+	color: #fb0920;
+}
+.categorias ul{
+	color: #000;
+	list-style: none;
+}
+.ajuste-imagen{
+	width: 297px;
+	height: 297px;
+}
+.imagen-tienda{
+	display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+#carrito {
+	padding-top: 40px;
+}
+#carrito .conttiend{
+	padding-top: 40px;
+}
+#carrito .oferta{
+	background-color:antiquewhite;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+#carrito .contcarr{
+	background-color: #FFFFFF;
+}
+#carrito .interez{
+	background-color: #727272;
+	color: white;
+}
+#carrito .talez{
+	text-align: center;
+	font-size: 30px;
+}
+#carrito .aprenda{
+	color: aqua;
+}
+#carrito .recomendado{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+#carrito .interno{
+	text-align: center;
+	font-size: 20px;
+}
